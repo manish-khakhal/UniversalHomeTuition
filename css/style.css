@@ -1372,6 +1372,12 @@ a:focus {
     color: #ffffff;
 }
 
+.contact-button{
+    margin:auto;
+    display:block;
+    text-align: center;
+}
+
 @media (max-width: 767.98px) {
     .contact .container-fluid {
         background: none;
