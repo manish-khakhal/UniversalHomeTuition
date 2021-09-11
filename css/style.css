@@ -1376,6 +1376,7 @@ a:focus {
     margin:auto;
     display:block;
     text-align: center;
+    padding: 10px;
 }
 
 @media (max-width: 767.98px) {
@@ -1576,6 +1577,30 @@ a:focus {
 .footer .copyright p a:hover {
     color: #414141;
 }
+
+.whatsapp {
+    position: fixed;
+    right: 0px;
+    top: 45%;
+}
+.whatsapp h5 {
+    color: white;
+    background: #20b20f;
+    padding: 12px;
+    border-radius: 10px;
+}
+.phone {
+    position: fixed;
+    right: 0px;
+    bottom: 33%;
+}
+
+.phone h5 {
+    color: white;
+    background: #20b20f;
+    padding: 8px;
+    border-radius: 8px;
+}    
 
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
